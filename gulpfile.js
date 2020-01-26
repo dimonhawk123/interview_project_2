@@ -13,8 +13,7 @@ const css = [
     './src/BEM/media-queries/*.scss'
 ];
 
-const js = [
-    './src/libs/smoothscroll-polyfill/smoothscroll.js',
+const js = [    
     './src/BEM/common.blocks/*.js'
 ];
 
