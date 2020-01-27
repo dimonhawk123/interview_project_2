@@ -1,0 +1,26 @@
+@media(max-width: 650px) {
+    .header__content {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .header__text {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 400px) {
+    .search__field {
+        font-size: 20px;
+        padding-left: 35px;
+    }
+
+    .search::before{
+        width: 25px;
+        height: 25px;
+        top: 1px;
+    }
+    
+    .main {
+        font-size: 20px;
+    }
+}

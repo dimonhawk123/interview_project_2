@@ -1,19 +1,16 @@
-.header {
-    // font-family: 'Lato', sans-serif;
+
+.header {    
     font-family: 'Bowlby One SC', cursive;
     font-size: 50px;
     color: white;
     background-color: rgb(204, 56, 54);
-    padding: 15px;
-
+    
     &__content {
         display: flex;
         flex-direction: row;
-
     }
 
-    &__text {
-        align-self: center;
+    &__logo {
+        margin-right: 10px;
     }
-
 }

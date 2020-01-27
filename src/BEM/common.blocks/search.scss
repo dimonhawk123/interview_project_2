@@ -1,16 +1,24 @@
 .search {
     background-color: #f2f2f2;
-    &__icon {
-        content: "";
-        background: url("../img/before.png") no-repeat center center;
-        width: 84px;
-        height: 84px;
-        display: inline-block;
-    }
+    font-size: 25px;
+    position: relative;    
 
     &__field {
         background-color: transparent;
-        color: black;
-        border: none;        
+        border: none; 
+        padding-left: 45px;
+        width: 100%;
+        font-family: 'Lato', sans-serif;      
+    }
+
+    &::before {
+        content: "";
+        background: url("../img/before.png");
+        background-position: center;   
+        background-size: cover;   
+        width: 30px;
+        height: 30px;
+        top: -1px;
+        position: absolute;
     }
 }
