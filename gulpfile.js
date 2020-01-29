@@ -14,6 +14,7 @@ const css = [
 ];
 
 const js = [    
+    './src/libs/@babel/polyfill/polyfill.min.js',
     './src/BEM/common.blocks/*.js'
 ];
 

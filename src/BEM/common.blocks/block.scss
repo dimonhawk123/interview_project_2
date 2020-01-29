@@ -9,7 +9,8 @@ $mainColor: rgb(204, 56, 54);
         border-radius: 10px;
         /* width: 350px; */
         padding: 10px;
-        color: #eaeaea;
+        // color: #eaeaea;
+        color: white;
         box-shadow: 2px 3px 6px 1px #8a8a8a;
     }
 
@@ -18,7 +19,9 @@ $mainColor: rgb(204, 56, 54);
     }
 
     &__link {
-        color: #eaeaea;        
+        // color: #eaeaea;        
+        color: white;
         text-decoration:none;
+        word-break: break-all;
     }
 }
