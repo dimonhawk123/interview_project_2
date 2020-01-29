@@ -27,12 +27,12 @@ let set = new Set();
 async function message() {
     // отправляем запрос по указанному нами url, 
     //ответ записывается в переменну response    
-    response = await fetch(proxyCORS + requestLink + search.value);
+    response = await fetch(proxyCORS + requestLink + search.value.trim());
     // если код HTTP-статуса в диапазоне от 200 до 299
     if (response.ok) {
         errorText.style.display = 'none';
 
-        if (search.value === '') {
+        if (search.value.trim() === '') {
             firstText.style.display = 'block';
             secondText.style.display = 'none';            
         } else {
